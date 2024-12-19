@@ -1,11 +1,7 @@
 # Use a slim Python image to reduce the image size
 FROM python:3.10-slim
 
-# Set the working directory in the container
-WORKDIR /app
 
-# Copy all files from your local machine to the container's /app directory
-COPY . /app
 
 # Install Python dependencies (e.g., from requirements.txt)
 RUN pip install --no-cache-dir -r requirements.txt
