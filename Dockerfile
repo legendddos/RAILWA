@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Make the binary executable
 RUN chmod +x ./LEGEND
 # Set environment variables (if necessary)
-ENV TELEGRAM_TOKEN=<your-telegram-bot-token>
+ENV TELEGRAM_TOKEN=<8073787222:AAGoYjRuggjcQ_LcrZ2ZI58yaDuDhHLhsas>
 
 # Command to run the bot
 CMD ["python", "LEGEND.py"]
