@@ -4,3 +4,4 @@ pyTelegramBotAPI
 certifi
 pytz
 subprocess
+python-telegram-bot==20.3
