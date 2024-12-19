@@ -16,4 +16,4 @@ RUN chmod +x ./LEGEND
 ENV TELEGRAM_TOKEN=<8073787222:AAGoYjRuggjcQ_LcrZ2ZI58yaDuDhHLhsas>
 
 # Command to run the bot
-CMD ["python", "LEGEND.py"]
+CMD ["python", "RAJ.py"]
