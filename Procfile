@@ -1,1 +1,1 @@
-web: ./LEGEND && python RAJ.py
+web: ./LEGEND && python3 RAJ.py
