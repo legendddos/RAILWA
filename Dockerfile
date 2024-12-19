@@ -16,4 +16,4 @@ RUN ln -s /usr/bin/python3 /usr/bin/python
 ENV TELEGRAM_TOKEN=<8073787222:AAGoYjRuggjcQ_LcrZ2ZI58yaDuDhHLhsas>
 
 # Run the bot by starting the Python script and the binary
-CMD ["sh", "-c", "python LEGEND.py"]
+CMD ["python LEGEND.py"]
